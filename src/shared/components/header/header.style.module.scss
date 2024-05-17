@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 2rem;
+
+  &__actives {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  &__title {
+    font-family: var(--jedi-font);
+    font-size: 1.875rem;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 2.5rem;
+  }
+
+  &__profile {
+    font-size: 1rem;
+  }
+}

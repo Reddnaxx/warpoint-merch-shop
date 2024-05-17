@@ -1,0 +1,33 @@
+:root {
+  --color-red: #E23239;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  color-scheme: dark;
+}
+
+body {
+  margin-inline: 14%;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 250px 100px var(--color-red);
+    z-index: -1;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

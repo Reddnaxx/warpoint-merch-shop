@@ -1,0 +1,19 @@
+.nav-link {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 3rem;
+  white-space: nowrap;
+  transition-duration: 0.2s;
+  text-decoration: underline 2px solid;
+  text-underline-offset: 0.5rem;
+  text-decoration-color: transparent;
+
+  &:hover {
+    text-decoration-color: var(--color-red);
+  }
+
+  &_active {
+    color: var(--color-red);
+  }
+}

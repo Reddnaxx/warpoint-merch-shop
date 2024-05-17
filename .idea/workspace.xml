@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1288e4a3-6dd3-4ecb-9715-e07b0896fd9e" name="Changes" comment="added main page">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/starjedi_cyrillic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/home_cat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/lottie/catalog.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(admin)/moderation/page.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(admin)/moderation/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(common)/about/page.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(common)/about/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(common)/cart/page.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(common)/cart/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(common)/catalog/page.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(common)/catalog/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(user)/profile/page.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(user)/profile/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/globals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/page.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/auth/models/user.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/items/models/item.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/orders/models/order.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/reviews/models/review.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/_document.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/header/components/nav-link/nav-link.style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/header/components/nav-link/nav-link.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/header/header.style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/header/header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/lottie-react/lottie-react.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/components/mat-icon-button/mat-icon-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/themes/dark.theme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Reddnaxx"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:Reddnaxx/UnitHack-2024.git",
+    "accountId": "fbc95bd2-fe1f-48e7-918b-38e6dc4aace4"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.eslintrc.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/shared/components/header/components/nav-link/nav-link.style.module.scss" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2gbA33F882TRVOxzDkylKaogO0p" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/necro/OneDrive/Рабочий стол/hack/frontend/src/app/(admin)",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\necro\\OneDrive\\Рабочий стол\\hack\\frontend\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "preferences.rainbow.brackets.root",
+    "ts.external.directory.path": "C:\\Users\\necro\\OneDrive\\Рабочий стол\\hack\\frontend\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\src\app\(admin)" />
+      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\src\app\(common)" />
+      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\src\app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\public\lottie" />
+      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\src\app\(user)" />
+      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\src\app\(common)" />
+      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\public" />
+      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\src\assets" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1288e4a3-6dd3-4ecb-9715-e07b0896fd9e" name="Changes" comment="" />
+      <created>1715955700239</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715955700239</updated>
+      <workItem from="1715955701258" duration="759000" />
+      <workItem from="1715956615204" duration="128000" />
+      <workItem from="1715956749143" duration="242000" />
+      <workItem from="1715956998645" duration="940000" />
+      <workItem from="1715957949411" duration="1947000" />
+      <workItem from="1715959923497" duration="19582000" />
+      <workItem from="1715979737679" duration="47000" />
+      <workItem from="1715979842514" duration="158000" />
+      <workItem from="1715980168655" duration="3735000" />
+    </task>
+    <task id="LOCAL-00001" summary="added main page">
+      <option name="closed" value="true" />
+      <created>1715981412968</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715981412968</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="created app" />
+    <MESSAGE value="added main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added main page" />
+  </component>
+</project>

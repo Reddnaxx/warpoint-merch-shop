@@ -1,6 +1,6 @@
-import styles from "./page.module.scss";
 import { clsx } from "clsx";
 import { Button } from "@mui/material";
+import styles from "./page.module.scss";
 
 export default function HomePage() {
   return (
@@ -24,7 +24,9 @@ export default function HomePage() {
       >
         В каталог
       </Button>
-      <p className={styles["home__footnote"]}>*продажа мерчендайза и атрибутики</p>
+      <p className={styles["home__footnote"]}>
+        *продажа мерчендайза и атрибутики
+      </p>
     </main>
   );
 }
