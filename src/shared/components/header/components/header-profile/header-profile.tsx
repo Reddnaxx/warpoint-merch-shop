@@ -5,24 +5,27 @@ import {
   LoginOutlined,
   LogoutOutlined,
   Person,
-  VerifiedUser,
 } from "@mui/icons-material";
 import MatIconButton from "@/shared/components/mat-icon-button/mat-icon-button";
-import { Avatar, Menu, MenuItem } from "@mui/material";
+import { Menu, MenuItem } from "@mui/material";
 import { MouseEvent, useState } from "react";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useAuthStore } from "@/store/auth/store";
 
 type HeaderProfileProps = {};
 
 function HeaderProfile({ ...props }: HeaderProfileProps) {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
+  const router = useRouter();
+  const pathname = usePathname();
+
+  const isAuth = useAuthStore(state => state.isAuth);
+
   const open = Boolean(anchorEl);
+
   const handleClick = (event: MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);
   };
-  const router = useRouter();
-  const isAuth = useAuthStore(state => state.isAuth);
 
   const handleProfileClick = () => {
     close();
@@ -61,13 +64,16 @@ function HeaderProfile({ ...props }: HeaderProfileProps) {
             }}
           >
             <MenuItem onClick={handleProfileClick}>
-              <Person sx={{ fontSize: "1.5rem", marginRight: "0.5rem" }} />{" "}
+              <Person
+                sx={{ fontSize: "1.5rem", marginRight: "0.5rem" }}
+                color={pathname === "/profile" ? "primary" : "inherit"}
+              />
               Профиль
             </MenuItem>
             <MenuItem onClick={handleLogoutClick}>
               <LogoutOutlined
                 sx={{ fontSize: "1.5rem", marginRight: "0.5rem" }}
-              />{" "}
+              />
               Выйти
             </MenuItem>
           </Menu>
