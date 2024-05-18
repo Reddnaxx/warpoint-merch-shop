@@ -1,7 +1,7 @@
 import styles from "./page.module.scss";
 
-type PageProps = {};
+type ProfilePageProps = {};
 
-export default function AboutPage({}: PageProps) {
+export default function ProfilePage({}: ProfilePageProps) {
   return <div></div>;
 }

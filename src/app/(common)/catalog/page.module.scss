@@ -1,3 +1,23 @@
 .catalog {
+  margin-top: 2rem;
 
+  &__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+
+  &__items {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 4rem;
+  }
+
+  &__bg {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+  }
 }

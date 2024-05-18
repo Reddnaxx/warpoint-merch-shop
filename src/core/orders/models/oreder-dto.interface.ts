@@ -1,9 +1,9 @@
-export interface IOrder {
-  id: number;
-  status: string;
+export interface IOrderDto {
+  userId: number;
+  items: number[];
+  userEmail: string;
   userPhone: string;
   userFullName: string;
   deliveryAddress: string;
   deliveryDate: string;
-  createdTime: string;
 }

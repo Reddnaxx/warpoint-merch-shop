@@ -7,6 +7,8 @@ import {
 } from "@mui/icons-material";
 import NavLink from "./components/nav-link/nav-link";
 import MatIconButton from "@/shared/components/mat-icon-button/mat-icon-button";
+import HeaderProfile from "@/shared/components/header/components/header-profile/header-profile";
+import HeaderCart from "@/shared/components/header/components/header-cart/header-cart";
 
 type HeaderProps = {};
 
@@ -20,12 +22,8 @@ function Header({ ...props }: HeaderProps) {
         <NavLink href={"about"}>О компании</NavLink>
       </nav>
       <div className={styles["header__actives"]}>
-        <MatIconButton aria-label="profile" href="profile">
-          <AccountCircleOutlined sx={{ fontSize: "3rem" }} />
-        </MatIconButton>
-        <MatIconButton aria-label="cart" href="cart">
-          <ShoppingCartOutlined sx={{ fontSize: "2rem" }} />
-        </MatIconButton>
+        <HeaderProfile/>
+        <HeaderCart/>
       </div>
     </div>
   );
