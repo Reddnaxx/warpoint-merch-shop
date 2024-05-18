@@ -7,6 +7,7 @@ import theme from "@/styles/themes/dark.theme";
 import localFont from "next/font/local";
 import Header from "@/shared/components/header/header";
 import { clsx } from "clsx";
+import Head from "next/head";
 
 const jediFont = localFont({
   src: "../../public/fonts/starjedi_cyrillic.otf",

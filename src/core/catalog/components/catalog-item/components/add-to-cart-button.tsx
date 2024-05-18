@@ -2,7 +2,7 @@
 import { Button, Typography } from "@mui/material";
 import { AddShoppingCartOutlined, RemoveShoppingCartOutlined } from "@mui/icons-material";
 import { IItem } from "@/core/catalog/models/item.interface";
-import { useCartStore } from "@/store/store";
+import { useCartStore } from "@/store/cart/store";
 
 type AddToCartButtonProps = {
   item: IItem;

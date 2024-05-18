@@ -19,8 +19,9 @@
   }
 
   &__heading {
-    font-family: var(--jedi-font);
+    font-family: var(--jedi-font), sans-serif;
     font-size: 5rem;
+    font-weight: normal;
     line-height: 5rem;
     color: var(--color-red);
   }

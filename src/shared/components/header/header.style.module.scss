@@ -12,7 +12,8 @@
   }
 
   &__title {
-    font-family: var(--jedi-font);
+    font-family: var(--jedi-font), sans-serif;
+    font-weight: normal;
     font-size: 1.875rem;
   }
 
