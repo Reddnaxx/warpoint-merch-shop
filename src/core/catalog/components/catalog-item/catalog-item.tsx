@@ -18,6 +18,7 @@ function CatalogItem({ imageSrc, width, children }: CatalogItemProps) {
       sx={{
         borderColor: "#E23239",
         borderRadius: "40px 40px 4px 4px",
+        background: "none",
       }}
     >
       <CardMedia

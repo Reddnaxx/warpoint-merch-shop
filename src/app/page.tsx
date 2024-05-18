@@ -1,9 +1,6 @@
 import { clsx } from "clsx";
-import { Button } from "@mui/material";
 import styles from "./page.module.scss";
 import MatButton from "@/shared/components/mat-button/mat-button";
-import Head from "next/head";
-import React from "react";
 
 export default function HomePage() {
   return (

@@ -23,7 +23,12 @@ function SearchField({ label, focused, color, ...props }: SearchFieldProps) {
             />
           </InputAdornment>
         ),
-        sx: { borderRadius: "30px", minWidth: "30dvw" },
+        sx: {
+          borderRadius: "30px",
+          minWidth: "30dvw",
+          backgroundColor: "rgba(0,0,0,0.1)",
+          backdropFilter: "blur(15px)",
+        },
       }}
       {...props}
     />

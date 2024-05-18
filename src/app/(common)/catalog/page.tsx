@@ -2,12 +2,18 @@ import { Typography } from "@mui/material";
 import styles from "./page.module.scss";
 import CatalogItem from "@/core/catalog/components/catalog-item/catalog-item";
 import SearchField from "@/core/catalog/components/search-field/search-field";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Каталог | Магазин мерча Warpoint"
+}
 
 type CatalogPageProps = {};
 
 export default function CatalogPage({}: CatalogPageProps) {
   return (
     <main className={styles.catalog}>
+      <div className={styles["catalog__bg"]}/>
       <div className={styles["catalog__top"]}>
         <SearchField />
       </div>

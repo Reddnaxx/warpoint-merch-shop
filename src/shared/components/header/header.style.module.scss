@@ -1,13 +1,13 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
   padding-block: 2rem;
 
   &__actives {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    width: fit-content;
+    margin-left: auto;
     gap: 1rem;
   }
 
@@ -20,6 +20,8 @@
   &__nav {
     display: flex;
     gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
   }
 
   &__profile {
