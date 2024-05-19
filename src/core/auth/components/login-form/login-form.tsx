@@ -41,6 +41,8 @@ function LoginForm({ ...props }: LoginFormProps) {
         inputProps={{
           sx: { fontSize: "1.25rem" },
         }}
+        error={!!errors.email}
+        helperText={errors.email?.message}
         {...register("email")}
       />
       <TextField
@@ -62,7 +64,7 @@ function LoginForm({ ...props }: LoginFormProps) {
       />
       <Button
         variant={"contained"}
-        color={"success"}
+        color={"primary"}
         sx={{ fontSize: "1.25rem", color: "#ffffff" }}
         disabled={isSubmitting || !isValid}
       >

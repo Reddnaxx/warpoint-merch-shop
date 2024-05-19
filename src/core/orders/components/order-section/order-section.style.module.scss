@@ -1,0 +1,29 @@
+.order-section {
+  h3 {
+    color: var(--color-red);
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+
+    span {
+      color: white;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  &__sum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 2rem;
+    font-size: 1.25rem;
+    color: var(--color-red);
+    font-weight: bold;
+  }
+}

@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 2fr 3fr 2fr;
   padding-block: 2rem;
+  padding-inline: 3rem;
 
   &__actives {
     display: flex;

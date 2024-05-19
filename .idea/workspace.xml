@@ -5,13 +5,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1288e4a3-6dd3-4ecb-9715-e07b0896fd9e" name="Changes" comment="added main page">
-      <change afterPath="$PROJECT_DIR$/src/app/not-found.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/not-found.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/auth/constants/authRoutes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/credit_card_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/credit_card_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/credit_card_empty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/cart_cat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(common)/catalog/[id]/page.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(common)/catalog/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(common)/catalog/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/auth/models/register-dto.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/catalog/components/item-page-item-section/item-page-item-section.style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/catalog/components/item-page-item-section/item-page-item-section.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/catalog/components/item-page-reviews-section/components/new-review/new-review.styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/catalog/components/item-page-reviews-section/components/new-review/new-review.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/catalog/components/item-page-reviews-section/components/review-card/review-card.style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/catalog/components/item-page-reviews-section/components/review-card/review-card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/catalog/components/item-page-reviews-section/item-page-reviews-section.style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/catalog/components/item-page-reviews-section/item-page-reviews-section.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/catalog/models/item-dto.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/catalog/services/items.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/orders/components/cart-item/cart-item.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/orders/components/cart-item/cart-item.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/orders/components/cart-items/cart-items.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/orders/components/cart-items/cart-items.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/orders/components/data-form/order-data-form.styles.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/orders/components/data-form/order-data-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/orders/components/order-section/order-section.style.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/orders/components/order-section/order-section.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/orders/services/orders.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/reviews/models/review-dto.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/reviews/services/reviews.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/axios.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/helpers/decl-of-num.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/components/header/components/header-cart/header-cart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/header/components/header-cart/header-cart.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(auth)/login/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/login/page.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(auth)/register/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/register/page.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(common)/cart/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(common)/cart/page.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(common)/cart/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(common)/cart/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(common)/catalog/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(common)/catalog/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/auth/components/login-form/login-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/auth/components/login-form/login-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/auth/components/register-form/register-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/auth/components/register-form/register-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/auth/models/login-response.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/auth/models/login-response.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/auth/schemas/register-form.schema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/auth/schemas/register-form.schema.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/auth/services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/auth/services/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/catalog/components/catalog-item/catalog-item.style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/catalog/components/catalog-item/catalog-item.style.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/catalog/components/catalog-item/catalog-item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/catalog/components/catalog-item/catalog-item.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/catalog/components/catalog-item/components/add-to-cart-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/catalog/components/catalog-item/components/add-to-cart-button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/catalog/components/catalog-item/components/catalog-item-title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/catalog/components/catalog-item/components/catalog-item-title.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/orders/models/oreder-dto.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/orders/models/oreder-dto.interface.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/components/header/components/header-profile/header-profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/header/components/header-profile/header-profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/components/header/components/nav-link/nav-link.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/header/components/nav-link/nav-link.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/components/header/header.style.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/header/header.style.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/auth/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/auth/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/cart/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cart/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/themes/dark.theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/themes/dark.theme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +74,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
         <option value="SCSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -69,7 +122,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/necro/OneDrive/Рабочий стол/hack/frontend/src/core/auth/schemas",
+    "last_opened_file_path": "C:/Users/necro/OneDrive/Рабочий стол/hack/frontend/src/core/catalog/components/item-page-reviews-section/components/new-review",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -79,25 +132,25 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\necro\\OneDrive\\Рабочий стол\\hack\\frontend\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "preferences.rainbow.brackets.root",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
     "ts.external.directory.path": "C:\\Users\\necro\\OneDrive\\Рабочий стол\\hack\\frontend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\src\core\auth\schemas" />
-      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\src\core\auth\components\register-form" />
-      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\src\core\auth\components" />
-      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\public\lottie" />
-      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\src\app\(auth)\register" />
+      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\src\core\catalog\components\item-page-reviews-section\components\new-review" />
+      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\src\core\catalog\components\item-page-reviews-section\components\review-card" />
+      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\src\core\catalog\components" />
+      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\src\core\catalog\components\item-page-item-section" />
+      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\src\app\(common)\catalog\[id]" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\src\app\api" />
+      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\src\core\reviews\services" />
+      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\src\core\orders\components\cart-items" />
       <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\src\app" />
       <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\src\pages" />
-      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\src" />
-      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\public\lottie" />
-      <recent name="C:\Users\necro\OneDrive\Рабочий стол\hack\frontend\src\store\orders" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -127,6 +180,8 @@
       <workItem from="1716011257890" duration="1126000" />
       <workItem from="1716012411354" duration="12622000" />
       <workItem from="1716025480166" duration="2333000" />
+      <workItem from="1716058725098" duration="12433000" />
+      <workItem from="1716099973398" duration="8341000" />
     </task>
     <task id="LOCAL-00001" summary="added main page">
       <option name="closed" value="true" />

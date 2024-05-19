@@ -80,7 +80,14 @@ function HeaderProfile({ ...props }: HeaderProfileProps) {
         </>
       ) : (
         <MatIconButton href={"login"}>
-          <LoginOutlined sx={{ fontSize: "2rem" }} />
+          <LoginOutlined
+            sx={{ fontSize: "2rem" }}
+            color={
+              pathname && ["/login", "/register"].includes(pathname)
+                ? "primary"
+                : "inherit"
+            }
+          />
         </MatIconButton>
       )}
     </>

@@ -1,0 +1,20 @@
+.review-card {
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    align-items: center;
+
+    h4 {
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+  }
+
+  &__user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}

@@ -19,19 +19,30 @@ function CatalogItem({ imageSrc, width, children }: CatalogItemProps) {
         borderColor: "#E23239",
         borderRadius: "40px 40px 4px 4px",
         background: "none",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
       }}
     >
       <CardMedia
-        sx={{ position: "relative", width: "100%", aspectRatio: "1 / 1" }}
+        sx={{
+          position: "relative",
+          width: "100%",
+          aspectRatio: "1 / 1",
+        }}
       >
         <Image src={imageSrc} alt={""} fill />
       </CardMedia>
       <CardContent
         sx={{
           background:
-            "radial-gradient(circle at left top, #E23239 0%, transparent 65%);",
+            "radial-gradient(circle at left top, #E23239 0%, transparent 65%)",
           backdropFilter: "blur(40px)",
           padding: "1.5rem",
+          flex: 1,
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "space-between"
         }}
       >
         {children}

@@ -3,47 +3,43 @@ import styles from "./page.module.scss";
 import CatalogItem from "@/core/catalog/components/catalog-item/catalog-item";
 import SearchField from "@/core/catalog/components/search-field/search-field";
 import { Metadata } from "next";
+import ItemsService from "@/core/catalog/services/items.service";
 
 export const metadata: Metadata = {
-  title: "Каталог | Магазин мерча Warpoint"
-}
+  title: "Каталог | Магазин мерча Warpoint",
+};
 
 type CatalogPageProps = {};
 
-export default function CatalogPage({}: CatalogPageProps) {
+export default async function CatalogPage({}: CatalogPageProps) {
+  const items = await ItemsService.getAll();
+
   return (
     <main className={styles.catalog}>
-      <div className={styles["catalog__bg"]}/>
-      <div className={styles["catalog__top"]}>
-        <SearchField />
-      </div>
+      <div className={styles["catalog__bg"]} />
       <section>
         <ul className={styles["catalog__items"]}>
-          <CatalogItem imageSrc={"/dev/hoodie1.jpg"}>
-            <CatalogItem.Title>
-              Худи WARPOINT с принтом, мужской
-            </CatalogItem.Title>
-            <Typography
-              component={"p"}
-              maxWidth={"60%"}
-              marginTop={"1rem"}
-              marginBottom={"2rem"}
-              whiteSpace={"pre"}
-            >
-              {"состав: хлопок 100%\nразмеры: XL, L, M, S"}
-            </Typography>
-            <CatalogItem.AddToCartButton
-              item={{
-                id: 1,
-                title: "Худи WARPOINT с принтом, мужской",
-                description: "состав: хлопок 100%\nразмеры: XL, L, M, S",
-                image: "/dev/hoodie1.jpg",
-                category: "top",
-                cost: 2500,
-                rating: 1,
-              }}
-            />
-          </CatalogItem>
+          {items.map(item => {
+            return (
+              <li key={item.id}>
+                <CatalogItem imageSrc={"/dev/hoodie1.jpg"}>
+                  <CatalogItem.Title id={item.id}>
+                    {item.title}
+                  </CatalogItem.Title>
+                  <Typography
+                    component={"p"}
+                    maxWidth={"60%"}
+                    marginTop={"1rem"}
+                    marginBottom={"2rem"}
+                    whiteSpace={"pre"}
+                  >
+                    {item.description}
+                  </Typography>
+                  <CatalogItem.AddToCartButton item={item} />
+                </CatalogItem>
+              </li>
+            );
+          })}
         </ul>
       </section>
     </main>

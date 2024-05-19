@@ -1,5 +1,5 @@
 "use client";
-import { Jura, Roboto } from "next/font/google";
+import { Jura } from "next/font/google";
 import { createTheme } from "@mui/material/styles";
 
 const juraFont = Jura({
@@ -11,6 +11,9 @@ const theme = createTheme({
     mode: "dark",
     primary: {
       main: "#E23239",
+    },
+    warning: {
+      main: "#FFE500",
     },
   },
   typography: {

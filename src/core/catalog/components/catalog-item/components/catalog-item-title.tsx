@@ -1,15 +1,18 @@
 import React, { ReactNode } from "react";
 import { Typography } from "@mui/material";
+import styles from "../catalog-item.style.module.scss";
+import Link from "next/link";
 
 type CatalogItemTitleProps = {
+  id: number;
   children: ReactNode;
 };
 
-function CatalogItemTitle({ children }: CatalogItemTitleProps) {
+function CatalogItemTitle({ children, id }: CatalogItemTitleProps) {
   return (
-    <Typography component={"h2"} fontSize={"1.25rem"} fontWeight={"bold"}>
+    <Link className={styles["title"]} href={`catalog/${id}`}>
       {children}
-    </Typography>
+    </Link>
   );
 }
 

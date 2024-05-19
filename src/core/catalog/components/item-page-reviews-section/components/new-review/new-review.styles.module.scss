@@ -1,0 +1,31 @@
+.new-review {
+  h4 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    resize: none;
+    width: 100%;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    font-family: inherit;
+    padding: 1rem 1.25rem;
+  }
+
+  &__actions {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.link {
+  transition-duration: 0.2s;
+
+  &:hover {
+    color: var(--color-red);
+  }
+}

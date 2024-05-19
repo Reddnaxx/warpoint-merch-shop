@@ -9,14 +9,14 @@ type AddToCartButtonProps = {
 };
 
 function AddToCartButton({ item }: AddToCartButtonProps) {
-  const { addToCart, removeFromCart, items } = useCartStore();
+  const { addToCart, removeAllFromCart, items } = useCartStore();
 
   const handleAddToCartClick = () => {
     addToCart(item);
   };
 
   const handleRemoveFromCartClick = () => {
-    removeFromCart(item);
+    removeAllFromCart(item);
   };
 
   return (
@@ -49,7 +49,7 @@ function AddToCartButton({ item }: AddToCartButtonProps) {
           endIcon={<AddShoppingCartOutlined sx={{ fontSize: "1.5rem" }} />}
           onClick={handleAddToCartClick}
         >
-          3500₽
+          {item.cost}₽
         </Button>
       )}
     </>

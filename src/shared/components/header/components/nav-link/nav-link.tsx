@@ -15,7 +15,9 @@ function NavLink({ href, className, children, ...props }: NavLinkProps) {
       href={href}
       className={clsx(styles["nav-link"], className, {
         [styles["nav-link_active"]]:
-          pathname?.substring(1) === href || pathname === href,
+          pathname?.substring(1) === href ||
+          pathname === href ||
+          (pathname?.startsWith(`/${href.toString()}`) && href !== "/"),
       })}
     >
       {children}
