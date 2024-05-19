@@ -1,13 +1,14 @@
+import PhaserGame from "@/core/game/phaser-game";
 import React from "react";
 
-type PageProps = {
-  
-};
+type GamePageProps = {};
 
-function Page({ ...props }: PageProps) {
+function GamePage({ ...props }: GamePageProps) {
   return (
-    <div></div>
+    <div>
+      <PhaserGame />
+    </div>
   );
 }
 
-export default Page;
+export default GamePage;

@@ -8,7 +8,7 @@ export class AuthService {
     password: string,
   ): Promise<ILoginResponse> {
     return await axios
-      .postForm<ILoginResponse>("/user/token", {
+      .post<ILoginResponse>("/user/token", {
         email,
         password,
       })
@@ -16,6 +16,6 @@ export class AuthService {
   }
 
   public static async register(data: IRegisterDto): Promise<void> {
-    return await axios.postForm("/user/register", data).then(res => res.data);
+    return await axios.post("/user/register", data).then(res => res.data);
   }
 }

@@ -1,9 +1,9 @@
-const commonRoutes = ["/", "/cart", "/catalog", "/about"];
+const commonRoutes = ["/", "/cart", "/catalog", "/about", "/game"];
 
 export const authRoutes = {
   guest: [...commonRoutes, "/login", "/register"],
-  user: [...commonRoutes, "/profile"],
-  admin: [...commonRoutes, "/profile", "/moderation"],
+  user: [...commonRoutes, "/profile", "/game"],
+  admin: [...commonRoutes, "/profile", "/moderation", "/game"],
 };
 
 export const routes = [
