@@ -19,9 +19,17 @@ export const useAuthStore = create<AuthState>()(
   devtools(
     persist(
       (set, get) => ({
-        user: null,
-        accessToken: null,
-        isAuth: false,
+        user: {
+          id: 2,
+          email: "test@mail.ru",
+          address: "Ангарская 3",
+          birthday: "2005-02-16",
+          fullName: "Александр",
+          role: "user",
+          phoneNumber: "89158524555"
+        },
+        accessToken: "1232323123231",
+        isAuth: true,
         login: async (email, password) => {
           const res = await AuthService.login(email, password);
 
@@ -47,6 +55,7 @@ export const useAuthStore = create<AuthState>()(
       {
         name: "auth",
         storage: createJSONStorage(() => localStorage),
+        version: 1
       },
     ),
   ),

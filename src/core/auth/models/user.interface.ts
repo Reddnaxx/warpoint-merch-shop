@@ -5,5 +5,5 @@ export interface IUser {
   address: string;
   birthday: string;
   phoneNumber: string;
-  role: string;
+  role: "user" | "admin";
 }

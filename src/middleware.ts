@@ -4,14 +4,20 @@ import { useAuthStore } from "@/store/auth/store";
 import { authRoutes, routes } from "@/core/auth/constants/authRoutes";
 
 export function middleware(request: NextRequest) {
-  const { user } = useAuthStore.getState();
+  const { user, isAuth } = useAuthStore.getState();
 
   if (
-    !user &&
+    !isAuth &&
     !authRoutes.guest.includes(request.nextUrl.pathname) &&
     routes.includes(request.nextUrl.pathname)
   ) {
     return NextResponse.redirect(new URL("/login", request.url));
+  } else if (
+    isAuth &&
+    !authRoutes[user!.role].includes(request.nextUrl.pathname) &&
+    routes.includes(request.nextUrl.pathname)
+  ) {
+    return NextResponse.redirect(new URL("/", request.url));
   }
 }
 

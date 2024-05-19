@@ -1,0 +1,28 @@
+.history-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 1rem 1.25rem;
+
+  h4:last-child, p:last-child {
+    text-align: right;
+  }
+
+  h4:first-child, a:first-child {
+    text-align: left;
+  }
+
+  a {
+    transition-duration: 0.2s;
+
+    &:hover {
+      color: var(--color-red);
+    }
+  }
+
+  &__header {
+    font-size: 1.5rem;
+    color: var(--color-red);
+  }
+}
