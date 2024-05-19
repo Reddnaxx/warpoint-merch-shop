@@ -19,7 +19,7 @@ function HeaderProfile({ ...props }: HeaderProfileProps) {
   const router = useRouter();
   const pathname = usePathname();
 
-  const isAuth = useAuthStore(state => state.isAuth);
+  const { isAuth, logout } = useAuthStore();
 
   const open = Boolean(anchorEl);
 
@@ -34,6 +34,8 @@ function HeaderProfile({ ...props }: HeaderProfileProps) {
 
   const handleLogoutClick = () => {
     close();
+    logout();
+    router.push("/login");
   };
 
   const close = () => {
