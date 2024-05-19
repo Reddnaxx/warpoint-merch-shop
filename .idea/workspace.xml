@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1288e4a3-6dd3-4ecb-9715-e07b0896fd9e" name="Changes" comment="added main page">
-      <change afterPath="$PROJECT_DIR$/src/core/game/main-scene.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/game/phaser-game.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(user)/game/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(user)/game/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/auth/constants/authRoutes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/auth/constants/authRoutes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/auth/services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/auth/services/auth.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/orders/services/orders.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/orders/services/orders.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/auth/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/auth/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="1288e4a3-6dd3-4ecb-9715-e07b0896fd9e" name="Changes" comment="added main page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +121,7 @@
       <workItem from="1716025480166" duration="2333000" />
       <workItem from="1716058725098" duration="12433000" />
       <workItem from="1716099973398" duration="13129000" />
-      <workItem from="1716114286326" duration="14072000" />
+      <workItem from="1716114286326" duration="14479000" />
     </task>
     <task id="LOCAL-00001" summary="added main page">
       <option name="closed" value="true" />
