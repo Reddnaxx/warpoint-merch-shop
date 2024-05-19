@@ -1,5 +1,5 @@
 export interface IOrderDto {
-  userId: number;
+  userId: number | null;
   itemsId: number[];
   userEmail: string;
   userPhone: string;

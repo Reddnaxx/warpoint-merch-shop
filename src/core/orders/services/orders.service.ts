@@ -12,7 +12,7 @@ export default class OrdersService {
   }
 
   public static async create(data: IOrderDto): Promise<IOrder[]> {
-    return await axios.post<IOrder[]>(`/order`, data).then(res => res.data);
+    return await axios.postForm<IOrder[]>(`/order`, data).then(res => res.data);
   }
 
   public static async delete(id: number | string): Promise<IOrder> {
@@ -23,6 +23,6 @@ export default class OrdersService {
     id: string,
     data: Partial<IOrderDto>,
   ): Promise<IOrder> {
-    return await axios.patch<IOrder>(`/order/${id}`, data).then(res => res.data);
+    return await axios.patchForm<IOrder>(`/order/${id}`, data).then(res => res.data);
   }
 }

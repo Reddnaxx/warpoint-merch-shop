@@ -22,7 +22,7 @@ export default async function CatalogPage({}: CatalogPageProps) {
           {items.map(item => {
             return (
               <li key={item.id}>
-                <CatalogItem imageSrc={"/dev/hoodie1.jpg"}>
+                <CatalogItem imageSrc={item.image}>
                   <CatalogItem.Title id={item.id}>
                     {item.title}
                   </CatalogItem.Title>

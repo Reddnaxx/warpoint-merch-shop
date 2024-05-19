@@ -10,6 +10,7 @@ type OrderDataFormProps = {
 };
 
 const orderDataSchema = z.object({
+  email: z.string().email().min(1),
   name: z.string().min(1),
   phone: z.string().min(10).max(11),
 });
@@ -28,6 +29,16 @@ function OrderDataForm({ onChange }: OrderDataFormProps) {
 
   return (
     <form className={styles["order-data-form"]}>
+      <TextField
+        label={"Почта"}
+        variant={"filled"}
+        fullWidth
+        type={"email"}
+        error={!!errors.email}
+        {...register("email", {
+          onChange: () => onChange(getValues(), isValid),
+        })}
+      />
       <TextField
         label={"Имя"}
         variant={"filled"}

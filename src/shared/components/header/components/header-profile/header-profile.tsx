@@ -29,7 +29,7 @@ function HeaderProfile({ ...props }: HeaderProfileProps) {
 
   const handleProfileClick = () => {
     close();
-    router.push("profile");
+    router.push("/profile");
   };
 
   const handleLogoutClick = () => {
@@ -79,7 +79,7 @@ function HeaderProfile({ ...props }: HeaderProfileProps) {
           </Menu>
         </>
       ) : (
-        <MatIconButton href={"login"}>
+        <MatIconButton href={"/login"}>
           <LoginOutlined
             sx={{ fontSize: "2rem" }}
             color={

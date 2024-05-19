@@ -13,7 +13,7 @@ function HeaderCart() {
 
   return (
     <div>
-      <MatIconButton href={"cart"}>
+      <MatIconButton href={"/cart"}>
         <Badge badgeContent={items.length} color={"primary"}>
           <ShoppingCartOutlined
             sx={{ fontSize: "2rem" }}

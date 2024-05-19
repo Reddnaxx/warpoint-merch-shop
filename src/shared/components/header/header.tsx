@@ -18,8 +18,8 @@ function Header({ ...props }: HeaderProps) {
       <h1 className={styles["header__title"]}>Warpoint</h1>
       <nav className={styles["header__nav"]}>
         <NavLink href={"/"}>Главная</NavLink>
-        <NavLink href={"catalog"}>Каталог</NavLink>
-        <NavLink href={"about"}>О компании</NavLink>
+        <NavLink href={"/catalog"}>Каталог</NavLink>
+        <NavLink href={"/about"}>О компании</NavLink>
       </nav>
       <div className={styles["header__actives"]}>
         <HeaderProfile/>
