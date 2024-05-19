@@ -9,13 +9,12 @@ export const metadata: Metadata = {
   title: "Каталог | Магазин мерча Warpoint",
 };
 
-export async function getStaticPaths() {
+export async function generateStaticParams() {
   const items = await ItemsService.getAll();
 
-  return {
-    paths: items.map(item => ({params: {id: item.id}})),
-    fallback: false,
-  };
+  return items.map(item => ({
+    id: item.id.toString(),
+  }));
 }
 
 type ItemPageProps = {
