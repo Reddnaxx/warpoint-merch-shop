@@ -8,7 +8,7 @@ const nextConfig = {
     ],
   },
   output: "export",
-  basePath: "",
+  basePath: "/UnitHack-2024"
 };
 
 export default nextConfig;
