@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1288e4a3-6dd3-4ecb-9715-e07b0896fd9e" name="Changes" comment="added main page">
-      <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(common)/catalog/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(common)/catalog/[id]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(user)/profile/page.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(user)/profile/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/auth/constants/authRoutes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/auth/constants/authRoutes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/profile/components/history-section/components/history-card/history-card.style.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/profile/components/history-section/components/history-card/history-card.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/profile/components/history-section/history-section.style.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/profile/components/history-section/history-section.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/profile/components/user-section/user-section.style.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/profile/components/user-section/user-section.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/profile/schemas/user-data.schema.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +123,7 @@
       <workItem from="1716025480166" duration="2333000" />
       <workItem from="1716058725098" duration="12433000" />
       <workItem from="1716099973398" duration="13129000" />
-      <workItem from="1716114286326" duration="16459000" />
+      <workItem from="1716114286326" duration="16655000" />
     </task>
     <task id="LOCAL-00001" summary="added main page">
       <option name="closed" value="true" />
